@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+  <title>Flex Nav Example</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      padding: 10px 20px;
+      color: white;
+    }
+
+    .navbar .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .navbar .nav-headings {
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar .nav-headings h3 {
+      margin: 0;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+
+    .navbar .nav-headings h3:hover {
+      color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="logo">MyLogo</div>
+    <div class="nav-headings">
+      <h3>Home</h3>
+      <h3>About</h3>
+      <h3>Services</h3>
+      <h3>Contact</h3>
+    </div>
+  </div>
+
+</body>
+</html>
